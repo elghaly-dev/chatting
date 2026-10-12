@@ -36,8 +36,8 @@
   <style>
 /* elghaly.dev home, /plumb and /quay: palette 5b.
    A soft indigo-purple page, solid near-black cards, white bold headings,
-   lavender for the quieter text on cards, and gold for the one thing to
-   press on each screen. Lavender is for cards only: on the purple it is
+   lavender for the quieter text on cards, and light indigo (token --gold)
+   for the one thing to press on each screen. Lavender is for cards only: on the purple it is
    3.2:1, so text on the purple is white (5:1 or more).
    Phones first: everything below is the iPhone layout, and the
    min-width queries widen it. Inlined into each page by
@@ -98,9 +98,9 @@
   --line-2: #2e2856;
   --text: #ffffff;
   --muted: #b9b3e6;
-  --gold: #f5c542;
-  --gold-2: #ffd45e;
-  --gold-ink: #1a1405;
+  --gold: #c9c2ff;
+  --gold-2: #e2deff;
+  --gold-ink: #17123d;
   --pos: #7be3b0; /* mint: small positive numbers only, and sparingly */
   --on-bg-line: rgba(255, 255, 255, 0.2);
   --shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04), 0 18px 40px -20px rgba(16, 10, 58, 0.6);
@@ -1474,8 +1474,6 @@ html[lang|="ar"] .btn {
   }
   </script>
   <style>
-    /* Chatting: no yellow. The gold tokens become light Sui indigo here only. */
-    :root { --gold: #c9c2ff; --gold-2: #e2deff; --gold-ink: #17123d; }
     .eyebrow::before { box-shadow: 0 0 10px rgba(201, 194, 255, 0.6); }
     .steps li::before { background: rgba(201, 194, 255, 0.16); }
     .phero__art--pillars { aspect-ratio: auto; padding: 1.4rem 1.3rem; display: grid; gap: 1rem; align-content: center; }
@@ -1746,7 +1744,7 @@ html[lang|="ar"] .btn {
 
   <footer class="footer">
     <p class="footer__nav"><a href="https://elghaly.dev/">elghaly.dev</a> · <a href="/">Chatting</a> · <a href="https://elghaly.dev/plumb">Plumb</a> · <a href="https://elghaly.dev/quay">QUAY</a> · <a href="https://elghaly.dev/about.html">About</a> · <a href="https://elghaly.dev/contact.html">Contact</a> · <a href="https://elghaly.dev/refund.html">Refunds</a> · <a href="https://elghaly.dev/delivery.html">Delivery</a> · <a href="https://elghaly.dev/terms.html">Terms</a> · <a href="https://elghaly.dev/privacy.html">Privacy</a></p>
-    <p>elghaly · <a href="mailto:support@elghaly.dev">support@elghaly.dev</a></p>
+    <p>elghaly · Email first: <a href="mailto:support@elghaly.dev">support@elghaly.dev</a>. Calls only by appointment.</p>
     <p class="lic-badges"><a href="https://creativecommons.org/licenses/by/4.0/" rel="license">© elghaly · CC BY 4.0</a> <a href="https://github.com/Alarm2024/elghaly/blob/main/LICENSE">Code: MIT</a> <a href="https://github.com/Alarm2024">Open source</a></p>
   </footer>
 </body>
