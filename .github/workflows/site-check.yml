@@ -1,0 +1,57 @@
+name: Site check
+
+on:
+  push:
+  schedule:
+    - cron: "0 12 * * *"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check live URLs return 200
+        run: |
+          set -euo pipefail
+          base="https://chatting.elghaly.dev"
+          paths="/ /terms /terms/ /terms.html /privacy /privacy/ /privacy.html"
+          for path in $paths; do
+            code=$(curl -sS -o /dev/null -w "%{http_code}" -L "${base}${path}")
+            echo "${base}${path} -> ${code}"
+            if [ "$code" != "200" ]; then
+              echo "Expected HTTP 200 for ${base}${path}, got ${code}"
+              exit 1
+            fi
+          done
+
+      - name: Check HTML visible text for banned strings
+        run: |
+          python3 << 'PY'
+          import re
+          import sys
+          from pathlib import Path
+
+          banned = re.compile(
+              r"\b(live|profit|guarantee|audit|launched|telegram|Dubai|UAE|Emirates|Egypt)\b|t\.me|qq\.com",
+              re.I,
+          )
+
+          def visible_text(html: str) -> str:
+              html = re.sub(r"<!--.*?-->", "", html, flags=re.S)
+              html = re.sub(r"<style[^>]*>.*?</style>", "", html, flags=re.S | re.I)
+              html = re.sub(r"<script[^>]*>.*?</script>", "", html, flags=re.S | re.I)
+              html = re.sub(r"<[^>]+>", " ", html)
+              return html
+
+          failed = False
+          for path in sorted(Path(".").rglob("*.html")):
+              if ".git" in path.parts:
+                  continue
+              text = visible_text(path.read_text(encoding="utf-8"))
+              for match in banned.finditer(text):
+                  print(f"{path}: banned match {match.group(0)!r}")
+                  failed = True
+
+          sys.exit(1 if failed else 0)
+          PY
