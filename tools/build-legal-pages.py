@@ -23,7 +23,7 @@ LEGAL_EXTRA_CSS = """
 FOOTER = """
   <footer class="footer">
     <p class="footer__nav"><a href="https://elghaly.dev/">elghaly.dev</a> · <a href="/">Chatting</a> · <a href="https://elghaly.dev/plumb">Plumb</a> · <a href="https://elghaly.dev/quay">QUAY</a> · <a href="https://elghaly.dev/about.html">About</a> · <a href="https://elghaly.dev/contact.html">Contact</a> · <a href="https://elghaly.dev/refund.html">Refunds</a> · <a href="https://elghaly.dev/delivery.html">Delivery</a> · <a href="/terms/">Terms</a> · <a href="/privacy/">Privacy</a></p>
-    <p>elghaly · Email first: <a href="mailto:support@elghaly.dev">support@elghaly.dev</a>. Calls only by appointment.</p>
+    <p>elghaly · Email first: <a href="mailto:support@elghaly.dev">support@elghaly.dev</a>. Calls by appointment.</p>
     <p class="lic-badges"><a href="https://creativecommons.org/licenses/by/4.0/" rel="license">© elghaly · CC BY 4.0</a> <a href="https://github.com/Alarm2024/elghaly/blob/main/LICENSE">Code: MIT</a> <a href="https://github.com/Alarm2024">Open source</a></p>
   </footer>
 """
@@ -104,7 +104,7 @@ TERMS = {
     <h2>Refunds</h2>
     <p>If a session was not useful, ask and you get your money back: no form and no time limit. Email <a href="mailto:support@elghaly.dev">support@elghaly.dev</a>. See the <a href="https://elghaly.dev/refund.html">refund policy</a> and our <a href="/privacy/">privacy policy</a>.</p>
     <h2>Contact</h2>
-    <p>Email first: <a href="mailto:support@elghaly.dev">support@elghaly.dev</a>. Calls only by appointment.</p>
+    <p>Email first: <a href="mailto:support@elghaly.dev">support@elghaly.dev</a>. Calls by appointment.</p>
     <p>elghaly, LLC</p>
 """,
     },
@@ -132,7 +132,7 @@ TERMS = {
     <h2>استرداد المبالغ</h2>
     <p>إذا لم تكن الجلسة مفيدة، اطلب وسيُعاد إليك المبلغ — دون نموذج ودون مهلة زمنية. &quot;If a session was not useful, ask and you get your money back: no form and no time limit.&quot; راسل <a href="mailto:support@elghaly.dev">support@elghaly.dev</a>. راجع <a href="https://elghaly.dev/refund.html">سياسة الاسترداد</a> و<a href="/privacy/">سياسة الخصوصية</a>.</p>
     <h2>التواصل</h2>
-    <p>Email first: <a href="mailto:support@elghaly.dev">support@elghaly.dev</a>. Calls only by appointment.</p>
+    <p>Email first: <a href="mailto:support@elghaly.dev">support@elghaly.dev</a>. Calls by appointment.</p>
     <p>elghaly, LLC</p>
 """,
     },
@@ -160,7 +160,7 @@ TERMS = {
     <h2>Возвраты</h2>
     <p>Если занятие не принесло пользы, попросите — и мы вернём деньги: без формы и без срока. &quot;If a session was not useful, ask and you get your money back: no form and no time limit.&quot; Напишите на <a href="mailto:support@elghaly.dev">support@elghaly.dev</a>. См. <a href="https://elghaly.dev/refund.html">политику возврата</a> и <a href="/privacy/">политику конфиденциальности</a>.</p>
     <h2>Контакт</h2>
-    <p>Email first: <a href="mailto:support@elghaly.dev">support@elghaly.dev</a>. Calls only by appointment.</p>
+    <p>Email first: <a href="mailto:support@elghaly.dev">support@elghaly.dev</a>. Calls by appointment.</p>
     <p>elghaly, LLC</p>
 """,
     },
@@ -188,7 +188,7 @@ TERMS = {
     <h2>退款</h2>
     <p>如果某次课程对您没有帮助，提出申请即可退款：无需填表，也没有时间限制。&quot;If a session was not useful, ask and you get your money back: no form and no time limit.&quot; 请发邮件至 <a href="mailto:support@elghaly.dev">support@elghaly.dev</a>。另见 <a href="https://elghaly.dev/refund.html">退款政策</a>与<a href="/privacy/">隐私政策</a>。</p>
     <h2>联系</h2>
-    <p>Email first: <a href="mailto:support@elghaly.dev">support@elghaly.dev</a>. Calls only by appointment.</p>
+    <p>Email first: <a href="mailto:support@elghaly.dev">support@elghaly.dev</a>. Calls by appointment.</p>
     <p>elghaly, LLC</p>
 """,
     },
@@ -205,9 +205,9 @@ PRIVACY = {
     <h2>What we collect</h2>
     <p>Your email address and a short description of the kind of work you do when you request a quote or book sessions. We do not ask for your name, company name, passwords, keys, or payment details by email.</p>
     <h2>Why we use it</h2>
-    <p>To reply with a quote, schedule sessions, and support you during your course. We use it only for Chatting and related email from elghaly.</p>
+    <p>To reply with a quote, schedule sessions, and support you during your course. We use it for Chatting and related email from elghaly, and for nothing else.</p>
     <h2>How long we keep it</h2>
-    <p>We keep your information only as long as needed for those purposes. You can ask us to delete it at any time; we will remove it when you ask.</p>
+    <p>We keep your information for as long as needed for those purposes, and no longer. You can ask us to delete it at any time; we will remove it when you ask.</p>
     <h2>No selling or sharing</h2>
     <p>We do not sell your personal information. We do not share it with advertisers or data brokers.</p>
     <h2>Cookies and analytics on this site</h2>

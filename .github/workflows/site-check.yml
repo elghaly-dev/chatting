@@ -41,7 +41,7 @@ jobs:
           from pathlib import Path
 
           banned = re.compile(
-              r"\b(live|profit|guarantee|audit|launched|telegram|Dubai|UAE|Emirates|Egypt)\b|t\.me|qq\.com",
+              r"\b(live|profit|guarantee|audit|launched|only|trading|telegram|Dubai|UAE|Emirates|Egypt)\b|t\.me|qq\.com",
               re.I,
           )
 
