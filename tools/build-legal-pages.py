@@ -203,7 +203,7 @@ PRIVACY = {
     <p>This policy describes Chatting at <a href="/">chatting.elghaly.dev</a>.</p>
     <p>We deeply respect your privacy rights under the CCPA/CPRA. We collect the minimum (just your email and what kind of work you do), never sell or share your personal information, and you can ask us to delete it anytime at <a href="mailto:support@elghaly.dev">support@elghaly.dev</a>.</p>
     <h2>What we collect</h2>
-    <p>Your email address and a short description of the kind of work you do when you request a quote or book sessions. We do not ask for your name, company name, passwords, keys, or payment details by email.</p>
+    <p>Your email address and a short description of the kind of work you do when you request a quote or book sessions. Quote links on this site open your email app (mailto); we do not run contact forms or third-party sign-up widgets on chatting.elghaly.dev. We do not ask for your name, company name, passwords, keys, or payment details by email.</p>
     <h2>Why we use it</h2>
     <p>To reply with a quote, schedule sessions, and support you during your course. We use it for Chatting and related email from elghaly, and for nothing else.</p>
     <h2>How long we keep it</h2>
@@ -229,7 +229,7 @@ PRIVACY = {
     <p>تصف هذه السياسة Chatting على <a href="/">chatting.elghaly.dev</a>.</p>
     <p>We deeply respect your privacy rights under the CCPA/CPRA. We collect the minimum (just your email and what kind of work you do), never sell or share your personal information, and you can ask us to delete it anytime at <a href="mailto:support@elghaly.dev">support@elghaly.dev</a>.</p>
     <h2>ما نجمع</h2>
-    <p>عنوان بريدك ووصفاً قصيراً لنوع عملك عند طلب عرض أو حجز جلسات. لا نطلب اسمك أو اسم شركتك أو كلمات المرور أو المفاتيح أو تفاصيل الدفع بالبريد.</p>
+    <p>عنوان بريدك ووصفاً قصيراً لنوع عملك عند طلب عرض أو حجز جلسات. روابط طلب العرض على هذا الموقع تفتح تطبيق بريدك (mailto)؛ ولا نستخدم نماذج اتصال أو أدوات تسجيل طرف ثالث على chatting.elghaly.dev. لا نطلب اسمك أو اسم شركتك أو كلمات المرور أو المفاتيح أو تفاصيل الدفع بالبريد.</p>
     <h2>لماذا نستخدمه</h2>
     <p>للرد بعرض سعر وجدولة الجلسات ودعمك أثناء مسارك. نستخدمه فقط لـ Chatting وللبريد المرتبط من elghaly.</p>
     <h2>مدة الاحتفاظ</h2>
@@ -255,7 +255,7 @@ PRIVACY = {
     <p>Эта политика описывает Chatting на <a href="/">chatting.elghaly.dev</a>.</p>
     <p>We deeply respect your privacy rights under the CCPA/CPRA. We collect the minimum (just your email and what kind of work you do), never sell or share your personal information, and you can ask us to delete it anytime at <a href="mailto:support@elghaly.dev">support@elghaly.dev</a>.</p>
     <h2>Что мы собираем</h2>
-    <p>Ваш email и краткое описание вида работы при запросе расчёта или бронировании. Мы не просим по email имя, компанию, пароли, ключи или платёжные данные.</p>
+    <p>Ваш email и краткое описание вида работы при запросе расчёта или бронировании. Ссылки на расчёт на сайте открывают вашу почту (mailto); на chatting.elghaly.dev нет форм обратной связи и сторонних виджетов регистрации. Мы не просим по email имя, компанию, пароли, ключи или платёжные данные.</p>
     <h2>Зачем мы это используем</h2>
     <p>Чтобы ответить с ценой, назначить сессии и поддерживать вас во время курса. Только для Chatting и связанной переписки elghaly.</p>
     <h2>Как долго храним</h2>
@@ -281,7 +281,7 @@ PRIVACY = {
     <p>本政策说明 <a href="/">chatting.elghaly.dev</a> 上的 Chatting 服务。</p>
     <p>We deeply respect your privacy rights under the CCPA/CPRA. We collect the minimum (just your email and what kind of work you do), never sell or share your personal information, and you can ask us to delete it anytime at <a href="mailto:support@elghaly.dev">support@elghaly.dev</a>.</p>
     <h2>我们收集的内容</h2>
-    <p>您在请求报价或预约时提供的邮箱，以及简短的工作类型说明。我们不会通过邮件索取姓名、公司名、密码、密钥或付款信息。</p>
+    <p>您在请求报价或预约时提供的邮箱，以及简短的工作类型说明。本站报价链接通过 mailto 打开您的邮件应用；chatting.elghaly.dev 上没有联系表单或第三方注册组件。我们不会通过邮件索取姓名、公司名、密码、密钥或付款信息。</p>
     <h2>使用目的</h2>
     <p>用于回复报价、安排课程并在学习过程中为您提供支持。仅用于 Chatting 及 elghaly 相关邮件往来。</p>
     <h2>保留期限</h2>
